@@ -10,7 +10,7 @@
   body {
     color: #ededed;
     background: #081b29;
-    background: url(images/bg3.jpeg) repeat;
+    
   
   
   }
@@ -307,7 +307,7 @@
       text-decoration: underline;
       text-underline-offset: 10px;
       text-decoration-thickness: 5px;
-      margin-bottom: 50px;
+      margin-bottom: 120px;
     }
     .bar {
       width: 100%;
