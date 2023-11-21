@@ -66,8 +66,7 @@
       width: 100%;
       justify-content: space-between;
       height: 100vh;
-      background: url(images/bg1.jpeg) no-repeat;
-      background-size: cover;
+    
       background-position: center;
       display: flex;
       align-items: center;
@@ -161,49 +160,51 @@
         0 0 200px cyan;
     }
     
-    .about {
-      
-      position: relative;
-      width: 100%;
-      justify-content: space-between;
-      height: 100vh;
-      
-      background-size: cover;
-      background-position: center;
-      display: flex;
+    .about{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       align-items: center;
-      padding: 70px 10% 0;
-      
-    }
+      gap: 1.5rem;
+  }
+  .about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
     
-   
-    
-
-    .about-text h2 {
-      font-size: 60px;
-      text-align: center;
-    }
-    
-    .about-text h2 span {
-      color: #0ef;
-    }
-    
-    .about-text h4 {
-      font-size: 29px;
-      font-weight: 600;
-      color: #fff;
-      line-height: 1.7;
-      margin: 15px 0 30px;
-      text-align: center;
-    }
-    
-    .about-text p {
-      color: aliceblue;
-      font-size: 20px;
-      line-height: 1.4;
-      margin-bottom: 4rem;
-      text-align: justify;
-    }
+    border-radius: 8px;
+  }
+  
+  .about-text h2 {
+    font-size: 60px;
+  }
+  
+  .about-text h2 span {
+    color: #0ef;
+  }
+  
+  .about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+  }
+  
+  .about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
     .num1{
       align-items: flex-end;
     }
@@ -247,7 +248,7 @@
     }
     .services-list{
       display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(559px,1fr));
+      grid-template-columns: repeat(auto-fit,minmax(459px,1fr));
       grid-gap:40px;
       margin-top: 50px;
     }
