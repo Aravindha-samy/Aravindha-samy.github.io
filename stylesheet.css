@@ -165,6 +165,7 @@
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
       gap: 1.5rem;
+      
   }
   .about-img img{
     padding-bottom: 20%;
@@ -197,17 +198,6 @@
     line-height: 1.4;
     margin-bottom: 4rem;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-    .num1{
-      align-items: flex-end;
-    }
     .services{
       color: aliceblue;
       font-size: 20px;
@@ -304,12 +294,12 @@
   }
     .container1{
       width: 600px;
-      height: 600px;      
+      height: 700px;      
       padding: 75px 90px;
-      margin-left:10px;
+      margin-left:12px;
     }
     .heading1 {
-      text-align: center;
+      
       text-decoration: underline;
       text-underline-offset: 10px;
       text-decoration-thickness: 5px;
@@ -447,10 +437,11 @@
     
             .radial-bars {
               width: 100%;
-              display: flex;
+              display: grid;
+              grid-template-columns: repeat(2,2fr);
               flex-wrap: wrap;
               justify-content: space-evenly;
-              align-items: flex-start;
+              
               }
               .radial-bars .radial-bar {
               width: 50%;
@@ -458,13 +449,7 @@
               margin-bottom: 10px;
               position: relative;
               }
-              .radial-bars .radial-bar {
-                
-              width: 50%;
-              height: 170px;
-              margin-bottom: 10px;
-              position: relative;
-              }
+              
               
               .radial-bars .radial-bar svg {
               position: absolute;
