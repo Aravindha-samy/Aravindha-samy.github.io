@@ -299,7 +299,7 @@
       margin-left:12px;
     }
     .heading1 {
-      
+      align-items: center;
       text-decoration: underline;
       text-underline-offset: 10px;
       text-decoration-thickness: 5px;
@@ -437,8 +437,8 @@
     
             .radial-bars {
               width: 100%;
-              display: grid;
-              grid-template-columns: repeat(2,2fr);
+              display: flex;
+              
               flex-wrap: wrap;
               justify-content: space-evenly;
               
